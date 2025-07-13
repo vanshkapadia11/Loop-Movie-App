@@ -22,3 +22,5 @@ This is a responsive movie web app built with **React.js**, **Tailwind CSS**, an
 - **Tailwind CSS** for styling
 - **React Router** for navigation
 - **TMDB API** for movie data
+
+The Link Of The Live Project Is Here!! -----> https://loopmovieapp.netlify.app/
