@@ -115,7 +115,7 @@ const Hero = () => {
                 movie.map((film, index) => (
                   <div
                     key={index}
-                    className="bg-white dark:bg-zinc-800 rounded-xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+                    className="bg-white dark:bg-zinc-800 rounded-xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300 cursor-pointer"
                     onClick={() => navigate(`/movie/${film.id}`)}
                   >
                     {film.poster_path && (

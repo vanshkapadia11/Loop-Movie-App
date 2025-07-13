@@ -69,7 +69,7 @@ const MovieDetails = () => {
 
             {/* 🔙 Back Button */}
             <button
-              onClick={() => navigate(-1)}
+              onClick={() => navigate(-1) || navigate("/")}
               className="mt-6 px-6 py-2 rounded-lg bg-red-600 hover:bg-red-700 text-white font-semibold transition uppercase"
             >
               ← Go Back
