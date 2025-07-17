@@ -16,8 +16,7 @@ const Hero = () => {
       method: "GET",
       headers: {
         accept: "application/json",
-        Authorization:
-          "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiMDM0YTZjNTYxNWFhYTFlZGFmZDQxNjgzNDcxNTM3MyIsIm5iZiI6MTc1MjI5NzUwMS4yMDIsInN1YiI6IjY4NzFmMDFkNzFiNzVhZDM3NGE5Nzk1YiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.oc2Jc_3MG1467ng-V3uLEqgrbCSmqJXig33KZ5XBz0o",
+        Authorization: `Bearer ${import.meta.env.VITE_TMDB_READ_ACCESS_TOKEN}`,
       },
     };
     const response = await fetch(
